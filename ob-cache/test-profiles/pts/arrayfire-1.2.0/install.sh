@@ -8,6 +8,7 @@ make -j $NUM_CPU_CORES
 cd ~/
 echo "#!/bin/sh
 cd arrayfire-full-v3.9.0/build/examples/benchmarks
+cp ./../financial/black_scholes_options_opencl ./
 ./\$@ > \$LOG_FILE 2>&1
 " > arrayfire
 chmod +x arrayfire

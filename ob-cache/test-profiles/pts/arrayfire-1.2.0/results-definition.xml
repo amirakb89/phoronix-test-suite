@@ -12,4 +12,11 @@
     <ResultScale>ms</ResultScale>
     <ResultProportion>LIB</ResultProportion>
   </ResultsParser>
+  <ResultsParser>
+    <OutputTemplate>Mean GPU Time: #_RESULT_#.</OutputTemplate>
+    <LineHint>Mean GPU Time: </LineHint>
+    <StripFromResult>ms</StripFromResult>
+    <DeleteOutputBefore>0.</DeleteOutputBefore>
+    <ResultScale>ms</ResultScale>
+  </ResultsParser>
 </PhoronixTestSuite>

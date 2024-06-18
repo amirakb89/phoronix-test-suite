@@ -51,6 +51,10 @@
           <Name>Conjugate Gradient OpenCL</Name>
           <Value>cg_opencl</Value>
         </Entry>
+        <Entry>
+          <Name>black_scholes OpenCL (Data size = 2000000)</Name>
+          <Value>black_scholes_options_opencl</Value>
+        </Entry>
       </Menu>
     </Option>
   </TestSettings>
